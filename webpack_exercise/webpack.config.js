@@ -28,6 +28,24 @@ module.exports = {
             },
         },
     },
+    module: {
+        rules: [
+            {
+                test: /\.jsx?$/,
+                exclude: /node_modules/,
+                loader: "babel-loader"
+            },
+            {
+                test: /\.(ts|tsx)$/,
+                exclude: /node_modules/,
+                loader: "awesome-typescript-loader",
+                options: {
+                    useBabel: true,
+                    babelCore: "@babel/core"
+                }
+            },
+        ]
+    },
     plugins: [
         new HtmlWebpackPlugin({
             filename: "index.html",
