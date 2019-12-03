@@ -8,6 +8,7 @@ module.exports = {
         extensions: [".js", ".ts"]
     },
     entry: {
+        styles: ["./styles/index.scss"],
         app: ['./index.ts']
     },
     optimization: {

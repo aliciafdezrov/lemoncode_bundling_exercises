@@ -1,0 +1,13 @@
+@import "_reset";
+
+$backGroundColor: lighten(grey, 20%);
+
+:root {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  width: 100vw;
+  background: $backGroundColor;
+}
