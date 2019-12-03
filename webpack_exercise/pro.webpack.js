@@ -36,6 +36,17 @@ module.exports = merge(base, {
         new MiniCssExtractPlugin({
             filename: "[name].css",
             chunkFilename: "[id].css"
+        }),
+        new HtmlWebpackPlugin({
+            filename: 'index.html',
+            template: 'index.html',
+            hash: true,
+            minify: {
+                collapseWhitespace: true,
+                collapseInlineTagWhitespace: true,
+                removeComments: true,
+                removeRedundantAttributes: true
+            }
         })
     ]
 });

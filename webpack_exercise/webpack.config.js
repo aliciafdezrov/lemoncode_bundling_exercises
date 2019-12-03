@@ -49,11 +49,5 @@ module.exports = {
                 loader: "html-loader"
             },
         ]
-    },
-    plugins: [
-        new HtmlWebpackPlugin({
-            filename: "index.html",
-            template: "index.html",
-        })
-    ]
+    }
 };
