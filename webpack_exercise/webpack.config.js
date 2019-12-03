@@ -1,10 +1,11 @@
 const path = require("path");
 const basePath = __dirname;
+const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
     context: path.join(basePath, "src"),
     resolve: {
-        extensions: [".js", ".jsx"]
+        extensions: [".js"]
     },
     entry: {
         app: ['./index.js']
@@ -23,5 +24,11 @@ module.exports = {
                 },
             },
         },
-    }
+    },
+    plugins: [
+        new HtmlWebpackPlugin({
+            filename: "index.html",
+            template: "index.html",
+        })
+    ]
 };
