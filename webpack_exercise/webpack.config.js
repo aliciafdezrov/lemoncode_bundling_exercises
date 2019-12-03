@@ -5,7 +5,7 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 module.exports = {
     context: path.join(basePath, "src"),
     resolve: {
-        extensions: [".js", ".ts"]
+        extensions: [".js", ".ts", ".tsx", ".jsx"]
     },
     entry: {
         styles: ["./styles/index.scss"],
