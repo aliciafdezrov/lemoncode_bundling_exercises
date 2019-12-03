@@ -8,5 +8,30 @@ module.exports = merge(base, {
     },
     watchOptions: {
         ignored: /node_modules/
-    }
+    },
+    module: {
+        rules: [
+            {
+                test: /\.(scss|css)$/,
+                use: [
+                    'style-loader',
+                    {
+                        loader: "css-loader",
+                        options: {
+                            modules: {
+                                localIdentName: '[name]__[local]__[hash:base64:5]',
+                            },
+                            localsConvention: 'camelCase',
+                        },
+                    },
+                    {
+                        loader: 'sass-loader',
+                        options: {
+                            implementation: require('sass'),
+                        },
+                    }
+                ]
+            }
+        ]
+    },
 });
