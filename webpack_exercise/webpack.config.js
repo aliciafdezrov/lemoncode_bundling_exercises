@@ -5,10 +5,10 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 module.exports = {
     context: path.join(basePath, "src"),
     resolve: {
-        extensions: [".js"]
+        extensions: [".js", ".ts"]
     },
     entry: {
-        app: ['./index.js']
+        app: ['./index.ts']
     },
     output: {
         filename: '[name].js'
