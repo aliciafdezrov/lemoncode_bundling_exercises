@@ -13,6 +13,9 @@ module.exports = {
     output: {
         filename: '[name].js'
     },
+    watchOptions: {
+        ignored: /node_modules/
+    },
     optimization: {
         splitChunks: {
             cacheGroups: {
