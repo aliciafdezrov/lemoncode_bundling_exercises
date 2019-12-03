@@ -1,11 +1,15 @@
 {
-  "name": "webpack",
+  "name": "webpack_exercise",
   "version": "1.0.0",
   "description": "Webpack exercise of bundling module set of exercises",
   "main": "index.js",
-  "scripts": {
-  },
+  "scripts": {},
   "keywords": [],
   "author": "Alicia Fernández Rovira",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.9.0"
+  }
 }
