@@ -1,4 +1,4 @@
 .idea/
-webpack/dist/
-webpack/node_modules/
+webpack_exercise/dist/
+webpack_exercise/node_modules/
 .DS_Store
