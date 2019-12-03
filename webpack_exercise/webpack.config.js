@@ -9,7 +9,7 @@ module.exports = {
     },
     entry: {
         styles: ["./styles/index.scss"],
-        app: ['./index.ts']
+        app: ['./index.tsx']
     },
     optimization: {
         splitChunks: {
