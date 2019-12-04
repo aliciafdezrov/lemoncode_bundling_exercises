@@ -1,0 +1,23 @@
+@import "_reset";
+
+$backGroundColor: lighten(grey, 40%);
+
+:root {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  width: 100vw;
+  background: $backGroundColor;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.logo-img {
+  height: 200px;
+  width: 300px;
+}

@@ -11,7 +11,15 @@
   "author": "Alicia Fernández Rovira",
   "license": "ISC",
   "devDependencies": {
+    "@types/react": "^16.9.14",
+    "@types/react-dom": "^16.9.4",
     "parcel-bundler": "^1.12.4",
-    "rimraf": "^3.0.0"
+    "rimraf": "^3.0.0",
+    "sass": "^1.23.7",
+    "typescript": "^3.7.3"
+  },
+  "dependencies": {
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0"
   }
 }

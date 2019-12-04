@@ -1,0 +1,12 @@
+$mainColor: #67DCFA;
+
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  h1 {
+    font-size: xx-large;
+    color: $mainColor;
+  }
+}
