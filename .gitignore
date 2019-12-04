@@ -4,3 +4,4 @@ webpack_version/node_modules/
 .DS_Store
 parcel_version/dist/
 parcel_version/node_modules/
+parcel_version/.cache/
