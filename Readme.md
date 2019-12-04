@@ -87,3 +87,13 @@ Seguidamente se ejecuta en *lite-server* el resultado de dicha build:
 ```
 cd dist/ && lite-server
 ```
+
+* **Bundler Analyzer Plugin**
+
+Para poder ejercutar la fase de rendimiento sobre la versión de producción de la aplicación lanzaremos la siguiente fase de npm: 
+
+```
+npm run build:perf
+```
+
+Se abrirá un servidor en la url: http://127.0.0.1:8888/ dando información sobre cuánto ocupa cada librería.
