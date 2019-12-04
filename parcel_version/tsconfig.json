@@ -2,10 +2,6 @@
   "compilerOptions": {
     "target": "es6",
     "module": "es6",
-    "typeRoots": [
-      "./node_modules/@types",
-      "./typings"
-    ],
     "esModuleInterop": true,
     "moduleResolution": "node",
     "declaration": false,
