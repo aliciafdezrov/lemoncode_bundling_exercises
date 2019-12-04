@@ -1,6 +1,7 @@
 const merge = require('webpack-merge');
 const base = require('./webpack.config.js');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
+const Dotenv = require('dotenv-webpack');
 
 module.exports = merge(base, {
     mode: 'development',
@@ -39,6 +40,9 @@ module.exports = merge(base, {
         new HtmlWebpackPlugin({
             filename: 'index.html',
             template: 'index.html'
-        })
+        }),
+        new Dotenv({
+            path: './pre.env',
+        }),
     ]
 });
