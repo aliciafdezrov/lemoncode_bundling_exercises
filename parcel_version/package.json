@@ -4,12 +4,14 @@
   "description": "Parcel exercise of bundling module set of exercises",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "rimraf dist && parcel ./src/index.html",
+    "build:prod": "rimraf dist && parcel build ./src/index.html"
   },
   "keywords": [],
   "author": "Alicia Fernández Rovira",
   "license": "ISC",
   "devDependencies": {
-    "parcel-bundler": "^1.12.4"
+    "parcel-bundler": "^1.12.4",
+    "rimraf": "^3.0.0"
   }
 }
