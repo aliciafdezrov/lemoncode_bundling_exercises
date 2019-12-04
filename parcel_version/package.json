@@ -1,0 +1,15 @@
+{
+  "name": "parcel_version",
+  "version": "1.0.0",
+  "description": "Parcel exercise of bundling module set of exercises",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Alicia Fernández Rovira",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4"
+  }
+}
