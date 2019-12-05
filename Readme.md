@@ -7,16 +7,16 @@ En este repositorio se encuentran los ejercicios del módulo de bundling del má
     - Este montada con typescript.
     - Tenga el texto de hola mundo estilado con SASS.
     - Muestra un hola mundo desarrollado con React.
-    - Montar la versión de producción.                                                                                                                                         
+    - Montar la versión de producción.  
+    - Tener variables de entorno para desarrollo o producción.                                                                                                                                       
                                                                                                                                               
 
 Dichas carpetas son:
 
 1. **parcel_version**. Versión del enunciado replicada con parcel (corresponde al apartado de los bonus points sobre Parcel). 
 
-2. **webpack_version**. Ejercicio realizado con webpack. También incluye exclusivamente los siguientes puntos:
+2. **webpack_version**. Ejercicio realizado con webpack. También incluye exclusivamente el siguiente punto:
 
-    - Tener variables de entorno para desarrollo o producción.
     - Tener una medida de cuanto mide cada librería.
     
 ## PARCEL VERSION
