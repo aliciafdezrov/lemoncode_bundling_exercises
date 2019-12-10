@@ -2,7 +2,6 @@
 
 En este repositorio se encuentran los ejercicios del módulo de bundling del máster de Lemoncode. El ejercicio está dividido en dos carpetas y ambas carpetas contienen los requisitos del ejercicio:
 
-    - Tenga el bundling montado con webpack.
     - Muestre un logo (si queréis el de lemoncode).
     - Este montada con typescript.
     - Tenga el texto de hola mundo estilado con SASS.
