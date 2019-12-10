@@ -1,7 +1,6 @@
 import React from 'react';
 import './styles/hello.world.component.scss';
 
-//@ts-ignore
 const getEnvironmentVariableInUpperCase = () => process.env.ENVIRONMENT.toUpperCase();
 
 export const HelloWorldComponent = () => {
